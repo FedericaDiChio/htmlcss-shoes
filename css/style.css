@@ -43,7 +43,7 @@ body {
 
 /* pagine generale*/
 
-.inside {
+.box .inside {
     width: 600px;
     position: absolute;
     top: 50%;
@@ -51,7 +51,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-img {
+.box .inside img {
     max-width: 100%;
 }
 
