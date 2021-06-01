@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size: 25px;
 }
 
 /* menu nav  */
@@ -32,8 +34,40 @@ body {
 }
 
 /* corpo centrale */
+
 .page {
     height: 100vh;
-    background-color: red;
     position: relative;
 }
+
+/* pagina 1 */
+
+
+.inside {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+#product-1 {
+    background-color: red;
+    color: yellow;
+}
+
+#product-2 {
+    background-color:green;
+    color: yellow;
+}
+#product-3 {
+    background-color:yellow;
+    color: green;
+}
+
+
