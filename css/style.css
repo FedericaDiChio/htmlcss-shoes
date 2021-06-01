@@ -9,4 +9,24 @@
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
- 
+
+/* menu nav  */
+#menu {
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    right: 20px;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 18px;
+    background-color: white;
+    padding: 12px 16px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
