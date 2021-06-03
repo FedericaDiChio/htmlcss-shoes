@@ -57,11 +57,11 @@ body {
     width:100%;
 }
 /* pagine specs */
-.inside h1 {
+.text-yellow {
     color: yellow;
 }
 
-#product-3 h1 {
+.text-green {
     color: green;
 }
 
