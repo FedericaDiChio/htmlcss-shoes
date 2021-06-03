@@ -54,7 +54,7 @@ body {
 }
 
 .page .inside img {
-    width:100%;
+    max-width:100%;
 }
 /* pagine specs */
 .text-yellow {
